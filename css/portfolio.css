@@ -1,0 +1,37 @@
+/* Button */
+.button-filter {
+  color: var(--title-text-color);
+  background-color: var(--secondary--bg-color);
+}
+
+.button-filter:hover,
+.button-filter:focus {
+  color: var(--white-color);
+  background-color: var(--accent);
+}
+
+/* Portfolio */
+a {
+  text-decoration: none;
+}
+
+.cards .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.cards .filter {
+  color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.cards .text {
+  color: var(--white-color);
+
+  font-size: 18px;
+  line-height: 1.55;
+  background-color: var(--footer-bg-color);
+}
