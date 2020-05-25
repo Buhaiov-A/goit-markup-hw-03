@@ -11,8 +11,11 @@
 .hero {
   background-color: var(--footer-bg-color);
   text-align: center;
-  /* width: 1600px;
-  height: 600px; */
+
+  max-width: 1600px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .hero-title {
@@ -26,16 +29,15 @@
 
   margin-top: 0;
   margin-bottom: 46;
-}
-
-.content {
-  display: inline-block;
-  margin-top: 200px;
-  margin-bottom: 200px;
-  outline: 2px solid red;
+  padding-top: 200px;
 }
 
 /* Feature */
+.section-feature {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .feature {
   display: flex;
 }
@@ -58,7 +60,7 @@
 
 .feature-box {
   width: 270px;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 .feature-box:not(:last-child) {
@@ -81,6 +83,13 @@
 }
 
 /* Works */
+.section-works {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  text-align: center;
+}
+
 .cards-works {
   display: flex;
 }
@@ -97,7 +106,7 @@
 .card-box {
   width: 370px;
   border-radius: 4px;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 .card-box:not(:last-child) {
@@ -117,32 +126,39 @@
 /* Team */
 .section-team {
   background-color: var(--secondary--bg-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
+  text-align: center;
 }
+
 .team {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
   margin-top: 0;
   margin-bottom: 50px;
 }
 
 .team-box {
   text-align: center;
-  width: 270px;
   background-color: var(--white-color);
   border-radius: 4px;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 
   display: inline-block;
+
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.team-cards {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .team-box:not(:last-child) {
   margin-right: 30px;
-}
-
-.team-cards:not(:last-child) {
-  margin: auto;
 }
 
 .cards-image {
@@ -169,14 +185,32 @@
   margin-bottom: 16px;
 }
 
+.social-link {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+  width: 207px;
+}
+
+.link-box:not(:last-child) {
+  margin-right: 10px;
+}
+
+.link-image {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  background-color: var(--secondary--bg-color);
+}
+
 /* Clients */
 .section-clients {
-  height: 182px;
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   text-align: center;
 
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 .clients {
@@ -186,4 +220,21 @@
   text-align: center;
   margin-top: 0;
   margin-bottom: 50px;
+}
+
+.clients-logo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo-box:not(:last-child) {
+  margin-right: 30px;
+}
+
+.logo-image {
+  background-color: var(--secondary--bg-color);
+  width: 170px;
+  height: 90px;
+
+  border-radius: 4px;
 }

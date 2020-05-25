@@ -44,10 +44,6 @@ body {
 }
 
 /* Button */
-button {
-  font-family: inherit;
-}
-
 .button {
   color: var(--white-color);
   background-color: var(--accent);
@@ -104,10 +100,21 @@ button {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
+}
+
+.hr {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #ececec;
 }
 
 /* Page header */
+.section-header {
+  border-bottom: 1px solid #ececec;
+}
+
 .container.page-header {
   display: flex;
   align-items: center;
@@ -176,8 +183,23 @@ button {
 }
 
 /* Footer */
-.footer {
+.section-footer {
   background-color: var(--footer-bg-color);
+}
+
+.container.footer {
+  display: flex;
+  /* align-items: center; */
+}
+
+.container-addr {
+  padding-top: 48px;
+  padding-bottom: 28px;
+  margin-right: 69px;
+}
+
+.container-addr > .logo {
+  margin-bottom: 10px;
 }
 
 .addr {
@@ -193,6 +215,17 @@ button {
   font-size: 14px;
   line-height: 1.7;
   text-decoration: none;
+
+  margin-bottom: 9px;
+}
+
+.container-social {
+  margin-top: 56px;
+}
+
+.container-subscribe {
+  margin-top: 56px;
+  margin-left: auto;
 }
 
 /* Copyright */
@@ -202,4 +235,14 @@ button {
   font-size: 12px;
   line-height: 2px;
   text-align: center;
+
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 19px;
+  padding-bottom: 21px;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
