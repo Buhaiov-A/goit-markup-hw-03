@@ -5,11 +5,9 @@ button {
 
 .filters {
   display: flex;
-  width: 611px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
-  padding-top: 124px;
 }
 
 .button-box:not(:last-child) {
@@ -31,6 +29,9 @@ button {
   border-radius: 4px;
 
   display: inline-block;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button-filter:hover,
@@ -49,7 +50,6 @@ a {
 .cards {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 92px;
 }
 
 .card-box {

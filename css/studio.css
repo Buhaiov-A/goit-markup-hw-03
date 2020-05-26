@@ -33,11 +33,6 @@
 }
 
 /* Feature */
-.section-feature {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .feature {
   display: flex;
 }
@@ -124,10 +119,8 @@
 }
 
 /* Team */
-.section-team {
+.section.team {
   background-color: var(--secondary--bg-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
   text-align: center;
 }
 
@@ -136,13 +129,13 @@
   font-size: 36px;
   line-height: 1.16;
   margin-top: 0;
-  margin-bottom: 50px;
 }
 
 .team-box {
   text-align: center;
   background-color: var(--white-color);
   border-radius: 4px;
+  padding-bottom: 24px;
   /* outline: 2px solid red; */
 
   display: inline-block;
@@ -189,7 +182,6 @@
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 24px;
   width: 207px;
 }
 
@@ -205,15 +197,13 @@
 }
 
 /* Clients */
-.section-clients {
-  padding-top: 94px;
-  padding-bottom: 94px;
+.section {
   text-align: center;
 
   /* outline: 2px solid red; */
 }
 
-.clients {
+.clients-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
