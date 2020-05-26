@@ -6,6 +6,7 @@ button {
 .filters {
   display: flex;
   margin-bottom: 50px;
+  justify-content: center;
 }
 
 .button-box:not(:last-child) {
