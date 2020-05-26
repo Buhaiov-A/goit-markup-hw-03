@@ -37,6 +37,11 @@
   display: flex;
 }
 
+/* .container.feature {
+  padding-bottom: 94px;
+  border-bottom: 1px solid #ececec;
+} */
+
 .feature-image {
   background-color: var(--accent);
   width: 270px;
@@ -62,10 +67,11 @@
   margin-right: 30px;
 }
 
-.text {
+.feature-text {
   font-size: 14px;
-  line-height: 2;
+  line-height: 1.71;
   margin: 0;
+  text-align: left;
 }
 
 .feature .link {

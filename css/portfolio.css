@@ -63,17 +63,27 @@ a {
   margin-bottom: 0;
 }
 
+.card-link {
+  display: block;
+}
+
 .cards .title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin: 0;
 }
 .cards .filter {
   color: var(--primary-text-color);
 
   font-size: 16px;
   line-height: 1.87;
+  margin: 0;
+}
+
+.card-content {
+  padding: 20px 24px;
 }
 
 .cards.title,
