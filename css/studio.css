@@ -37,10 +37,16 @@
   display: flex;
 }
 
-/* .container.feature {
+.section-feature {
+  padding-top: 94px;
+}
+
+.container > .feature {
+  padding-left: 15px;
+  padding-right: 15px;
   padding-bottom: 94px;
   border-bottom: 1px solid #ececec;
-} */
+}
 
 .feature-image {
   background-color: var(--accent);
